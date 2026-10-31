@@ -1,0 +1,65 @@
+
+main h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+main > div {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.sample-table {
+    width: 400px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    transform: rotate(-5deg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    border-bottom: 2px solid var(--light-blue);
+    border-right: 2px solid var(--light-blue);
+}
+
+.sample-table table {
+    margin: auto;
+    text-align: center;
+}
+
+#table-header th {
+    width: 80px;
+    padding: 5px;
+    border-right: 2px solid var(--light-blue);
+    font-size: 14px;
+}
+
+tbody {
+    transform: translateY(10px);
+}
+
+#table-top {
+    width: 150px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border-right: 2px solid var(--light-blue);
+    border-left: 2px solid var(--light-blue);
+}
+
+#table-bottom {
+    width: 150px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border-left: 2px solid var(--light-blue);
+    border-right: 2px solid var(--light-blue);
+    position: relative;
+    right: 270px;
+}
