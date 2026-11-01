@@ -50,6 +50,7 @@ tbody {
     border-radius: 10px;
     border-right: 2px solid var(--light-blue);
     border-left: 2px solid var(--light-blue);
+    animation: move1 2s ease-in-out infinite alternate;
 }
 
 #table-bottom {
@@ -62,4 +63,15 @@ tbody {
     border-right: 2px solid var(--light-blue);
     position: relative;
     right: 270px;
+    animation: move2 2s ease-in-out infinite alternate;
+}
+
+@keyframes move1 {
+    from { transform: translateY(0); }
+    to { transform: translateY(-10px); }
+}
+
+@keyframes move2 {
+    from { transform: translateY(0); }
+    to { transform: translateY(10px); }
 }

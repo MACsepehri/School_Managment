@@ -67,3 +67,7 @@ main {
     box-sizing: border-box;
     margin-top: 100px;
 }
+
+a {
+    cursor: pointer;
+}

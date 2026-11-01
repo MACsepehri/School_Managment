@@ -4,10 +4,10 @@
     </div>
     <div>
         <nav>
-            <a href="/">صفحه اصلی</a>
-            <a href="/login">ورود</a>
-            <a href="/register">ثبت نام</a>
-            <a href="/dashboard">حساب کاربری</a>
+            <a id="main-page">صفحه اصلی</a>
+            <a id="login-page">ورود</a>
+            <a id="register-page">ثبت نام</a>
+            <a id="dashboard-page">حساب کاربری</a>
         </nav>
     </div>
     <div >

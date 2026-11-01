@@ -13,14 +13,14 @@
         include 'static/base/header.php';
     ?>
 
-    <main>
+    <main id="app">
         <div>
             <div style="margin-top: 150px;">
                 <h2>از اطلاعات دانش آموزان<br>تا <span style="color: var(--blue);">مدیریت آنها</span></h2>
             </div>
             <div>
                 <div id="table-top">
-                    <p>مدیریت لحظه ای</p>
+                    <p>مدیریت در لحظه</p>
                 </div>
                 <div class="sample-table">
                     <h3 style="text-align: right; margin-right: 10px;">اطلاعات دانش آموزان</h3>
@@ -51,6 +51,8 @@
             </div>
         </div>
     </main>
+
+    <script src="/static/js/app.js"></script>
     
 </body>
 </html>
